@@ -1,0 +1,171 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #f1f1f1;
+    grid-area: header;
+    padding: 30px;
+    text-align: center;
+  }
+
+.title {
+    color: #656565;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #ea6a5b;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 12px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+.navbar > .active {
+    border-bottom: 3px solid #333333;
+    color: #333333;
+}
+
+.new-paint-job {
+    font-size: 24px;
+    margin: 35px;
+    text-align: center;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    padding: 5px;
+    width: 20%;
+}
+
+.form {
+    clear: both;
+    display: block;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.form label {
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px 3px 3px 0;
+}
+
+.col-25 {
+    float: left;
+    margin-top: 6px;
+    width: 15%;
+}
+
+.col-75 {
+    float: left;
+    margin-top: 6px;
+    width: 75%;
+}
+
+input[type=text] {
+    border: 1px solid lightgrey;
+    padding: 3px;
+    width: 25%;
+}
+
+select {
+    border: 1px solid lightgrey;
+    padding: 3px;
+    width: 26%;
+}
+
+input[type=submit] {
+    background-color: #ea6a5b;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 8px 50px;
+}
+
+.paint-job {
+    text-align: left;
+}
+
+.paint-job h3 {
+    font-size: 29px;
+    margin: 1.2em 0;
+    text-align: center;
+}
+
+.table-col {
+    float: left;
+    font-size: 14px;
+    margin: 1px;
+    width: 68%;
+}
+
+.table-col h4 {
+    padding-left: 10px;
+}
+
+.table-col button {
+    background-color: white;
+    border: none;
+    color: #ea6a5b;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.performance {
+    float: right;
+    width: 28%;
+}
+
+.performance h4 {
+    background-color: #ea6a5b;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 4em;
+    padding: 8px 15px;
+    text-transform: uppercase;
+}
+
+.perf-details {
+    background-color: #f1f1f1;
+    padding: 5px 15px;
+}
+
+.perf-details label {
+    float: right;
+    font-weight: bold;
+}
