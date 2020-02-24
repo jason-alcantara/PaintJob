@@ -24,6 +24,10 @@ class CarController extends Controller
         $target = substr($request->input('target'), 7);
         $target = substr($target, 0, -4);
 
+        if($current == "default" || $target == "default") {
+            return redirect()->route('index');
+        }
+
         $car = new Car;
         
         $car->plate_num = $request->input('plate_num');

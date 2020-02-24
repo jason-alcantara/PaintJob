@@ -48,13 +48,13 @@
             <dl>
                 <dt>Breakdown:</dt>
                 <dd>Blue
-                    <label>{{ $green }}</label>
+                    <label>{{ $blue }}</label>
                 </dd>
                 <dd>Red
                     <label>{{ $red }}</label>
                 </dd>
                 <dd>Green
-                    <label>{{ $blue }}</label>
+                    <label>{{ $green }}</label>
                 </dd>
             </dl>
         </div>
